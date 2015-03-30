@@ -1,0 +1,14 @@
+@charset "utf-8";
+.uploadify-queue{display:none; padding:10px; width:100%;}
+.uploadify-queue-item{position:relative; display:inline-block; margin-top: 5px; margin-right:10px; padding:10px; width:220px; background:#f5f5f5; -webkit-box-shadow:0 3px 7px rgba(0,0,0,0.5);-moz-box-shadow:0 3px 7px rgba(0,0,0,0.5);box-shadow:0 3px 7px rgba(0,0,0,0.5);}
+.uploadify-info{margin-bottom:5px; height:24px;}
+.uploadify-info .up_filename{display:inline-block; width:180px; word-wrap:break-word;}
+.uploadify-info .uploadbtn{position:absolute; top:1px; right:10px; margin-right:15px; width:50px;}
+.uploadify-info .delfilebtn{position:absolute; top:0px; right:2px; font-size:20px; font-weight:bold; cursor:pointer;}
+.uploadify-progress{display:inline-block; margin:5px 0;width:200px; height:3px; background-color:#e5e5e5; vertical-align:middle; padding:0; overflow:hidden;}
+.uploadify-progress-bar{width:0;height:100%;background-color:#0099ff;}
+.preview-box{padding:4px; width:200px; height:124px; border:1px #CCC solid; border-radius:3px; text-align:center;}
+.preview-box .img-box{display:block; width:190px; height:114px; overflow:hidden;}
+.preview-box .img-box img{width:100%;}
+.progressnum{padding-left:5px;}
+.upload_droparea {height:40px; border:1px #CCC solid; border-radius:3px; color:#DDD;}
