@@ -32,3 +32,18 @@ func (c *MainController) Tableedit() {
 func (c *MainController) Form() {
 	c.TplNames = "form.tpl"
 }
+func (c *MainController) Forminput() {
+	c.TplNames = "forminput.tpl"
+}
+func (c *MainController) Formvalidate() {
+	c.TplNames = "formvalidate.tpl"
+}
+func (c *MainController) Formselect() {
+	c.TplNames = "formselect.tpl"
+}
+func (c *MainController) Formcheckbox() {
+	c.TplNames = "formcheckbox.tpl"
+}
+func (c *MainController) Formtags() {
+	c.TplNames = "formtags.tpl"
+}

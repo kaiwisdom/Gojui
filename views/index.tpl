@@ -167,7 +167,26 @@
                             <div id="collapse_0" class="panel-collapse panelContent collapse in">
                                 <div class="panel-body">
                                     <ul id="main_treeDemo_0" class="ztree ztree_main" attrs = '{"onClick":"MainMenuClick", "expandAll":true}' 
-                                        nodes='[{"id":1, "pId":0, "name":"基本元素"},{"id":11, "pId":1, "name": "普通表格", "nurl":"/Main/Table", "target":"navTab", "rel":"table"},{"id":12, "pId":1, "name": "固定表头表格", "nurl":"/Main/Tablegrid", "target":"navTab", "rel":"table-grid"},{"id":13, "pId":1, "name": "可编辑表格", "nurl":"/Main/Tableedit", "target":"navTab", "rel":"table-edit"},{"id":14, "pId":1, "name": "演示表单", "nurl":"form.html", "target":"navTab", "rel":"form"},{"id":15, "pId":1, "name": "表单元素", "nurl":"form-input.html", "target":"navTab", "rel":"form-input"},{"id":16, "pId":1, "name": "验证表单", "nurl":"form-validate.html", "target":"navTab", "rel":"form-validate"},{"id":17, "pId":1, "name": "Select下拉列表", "nurl":"form-select.html", "target":"navTab", "rel":"form-select"},{"id":18, "pId":1, "name": "复选框、单选框", "nurl":"form-checkbox.html", "target":"navTab", "rel":"form-checkbox"},{"id":19, "pId":1, "name": "标签(自动完成)", "nurl":"form-tags.html", "target":"navTab", "rel":"form-tags"},{"id":2, "pId":0, "name":"进阶实例"},{"id":21, "pId":2, "name": "弹出窗口", "nurl":"dialog.html", "target":"navTab", "rel":"dialog"},{"id":22, "pId":2, "name": "滑动面板", "nurl":"collapse.html", "target":"navTab", "rel":"collapse"},{"id":23, "pId":2, "name": "选项卡", "nurl":"tabs.html", "target":"navTab", "rel":"tabs"},{"id":24, "pId":2, "name": "树型菜单(zTree)", "nurl":"ztree.html", "target":"navTab", "rel":"ztree"},{"id":25, "pId":2, "name": "下拉选择(zTree)", "nurl":"ztree-select.html", "target":"navTab", "rel":"ztree-select"},{"id":26, "pId":2, "name": "编辑器(KindEditor)", "nurl":"kindeditor.html", "target":"navTab", "rel":"kindeditor"},{"id":27, "pId":2, "name": "工具提示", "nurl":"tooltip.html", "target":"navTab", "rel":"tooltip"},{"id":28, "pId":2, "name": "弹出提示", "nurl":"popover.html", "target":"navTab", "rel":"popover"},{"id":29, "pId":2, "name": "拖动排序", "nurl":"dragsort.html", "target":"navTab", "rel":"dragsort"},{"id":30, "pId":2, "name": "多个拖动排序", "nurl":"dragsort_more.html", "target":"navTab", "rel":"dragsort-more"}]'>
+                                        nodes='[{"id":1, "pId":0, "name":"基本元素"},
+                                        {"id":11, "pId":1, "name": "普通表格", "nurl":"/Main/Table", "target":"navTab", "rel":"table"},
+                                        {"id":12, "pId":1, "name": "固定表头表格", "nurl":"/Main/Tablegrid", "target":"navTab", "rel":"table-grid"},
+                                        {"id":13, "pId":1, "name": "可编辑表格", "nurl":"/Main/Tableedit", "target":"navTab", "rel":"table-edit"},
+                                        {"id":14, "pId":1, "name": "演示表单", "nurl":"/Main/Form", "target":"navTab", "rel":"form"},
+                                        {"id":15, "pId":1, "name": "表单元素", "nurl":"/Main/Forminput", "target":"navTab", "rel":"form-input"},
+                                        {"id":16, "pId":1, "name": "验证表单", "nurl":"/Main/Formvalidate", "target":"navTab", "rel":"form-validate"},
+                                        {"id":17, "pId":1, "name": "Select下拉列表", "nurl":"/Main/Formselect", "target":"navTab", "rel":"form-select"},
+                                        {"id":18, "pId":1, "name": "复选框、单选框", "nurl":"/Main/Formcheckbox", "target":"navTab", "rel":"form-checkbox"},
+                                        {"id":19, "pId":1, "name": "标签(自动完成)", "nurl":"/Main/Formtags", "target":"navTab", "rel":"form-tags"},
+                                        {"id":2, "pId":0, "name":"进阶实例"},{"id":21, "pId":2, "name": "弹出窗口", "nurl":"/Advance/Dialog", "target":"navTab", "rel":"dialog"},
+                                        {"id":22, "pId":2, "name": "滑动面板", "nurl":"/Advance/Collapse", "target":"navTab", "rel":"collapse"},
+                                        {"id":23, "pId":2, "name": "选项卡", "nurl":"/Advance/Tabs", "target":"navTab", "rel":"tabs"},
+                                        {"id":24, "pId":2, "name": "树型菜单(zTree)", "nurl":"/Advance/Ztree", "target":"navTab", "rel":"ztree"},
+                                        {"id":25, "pId":2, "name": "下拉选择(zTree)", "nurl":"/Advance/Ztreeselect", "target":"navTab", "rel":"ztree-select"},
+                                        {"id":26, "pId":2, "name": "编辑器(KindEditor)", "nurl":"/Advance/Kindeditor", "target":"navTab", "rel":"kindeditor"},
+                                        {"id":27, "pId":2, "name": "工具提示", "nurl":"/Advance/Tooltip", "target":"navTab", "rel":"tooltip"},
+                                        {"id":28, "pId":2, "name": "弹出提示", "nurl":"/Advance/Popover", "target":"navTab", "rel":"popover"},
+                                        {"id":29, "pId":2, "name": "拖动排序", "nurl":"/Advance/Dragsort", "target":"navTab", "rel":"dragsort"},
+                                        {"id":30, "pId":2, "name": "多个拖动排序", "nurl":"/Advance/Dragsortmore", "target":"navTab", "rel":"dragsort-more"}]'>
                                     </ul>
                                 </div>
                             </div>
