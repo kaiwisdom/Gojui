@@ -8,8 +8,18 @@ type ErrorController struct {
 	beego.Controller
 }
 
-func (c *ErrorController) Error404() {
-	//
+type Msg struct {
+	StatusCode   int
+	Message      string
+	NavTabId     string
+	Rel          string
+	CallbackType string
+	ForwardUrl   string
+}
+
+func (this *ErrorController) Error404() {	
+	this.Data['Msg']=&Msg{300,'404'}
+	this.ServeJson()
 }
 
 //func (c *ErrorController) Error501() {

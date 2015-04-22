@@ -107,7 +107,7 @@
                 var nowtime = new Date().getTime();
                 $("#clock").clock({"timestamp":nowtime, "format":"24", "calendar":"false"});
             });
-        //菜单-事件
+            //菜单-事件
             function MainMenuClick(event, treeId, treeNode) {
                 if (treeNode.isParent) {
                     var zTree = $.fn.zTree.getZTreeObj(treeId);
@@ -438,7 +438,7 @@
                 </div>
             </div>
         </div>
-        <div id="footer">Copyright &copy; 2013 - 2014 <a href="#" target="_blank">B-jui,beego</a>       
+        <div id="footer">Copyright &copy; 2014 - 2015 <a href="#" target="_blank">B-jui,beego</a>       
         </div>
     </body>
 </html>

@@ -6,5 +6,6 @@ import (
 )
 
 func main() {
+	beego.AutoRender = false //关闭自动渲染模板
 	beego.Run()
 }
